@@ -6,7 +6,7 @@ and prints all possible combination from the elements in the Inputted Array[SOUR
 that adds upto the [TARGET] Number
 
 ```markdown
-      *Includes Extensive Comments to facilitate better understanding of code
+      *Includes Extensive Commenting to facilitate better understanding of code
 ```
 ### Sample Example
 Find all possibleiteration for the [TARGET] : 12 <br />
