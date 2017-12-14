@@ -6,7 +6,8 @@
 // size		-	The index of the Array untill which the elements are to be printed
 
 void printSubset(int set[], int size) {
-	for (int i = 0; i < size; i++) {
+	int i;
+	for (i = 0; i < size; i++) {
 		printf("%*d", 5, set[i]);
 	}
 

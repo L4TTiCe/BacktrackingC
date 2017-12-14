@@ -21,7 +21,8 @@ void subset_sum(int set[], int tuplet[], int set_size, int tuplet_size, int sum,
 	}
 	else {
 		// generate nodes along the breadth
-		for (int i = nodeCount; i < set_size; i++) {
+		int i;
+		for (i = nodeCount; i < set_size; i++) {
 			tuplet[tuplet_size] = set[i];
 			// consider next level node (along depth)
 			subset_sum(set, tuplet, set_size, tuplet_size + 1, sum + set[i], i + 1, target_sum);
